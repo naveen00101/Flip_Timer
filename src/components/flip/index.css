@@ -1,0 +1,43 @@
+.test{
+    font-size: 20em;
+}
+
+.tick-credits{
+    display: none !important;
+}
+
+
+/* For screens that are 1200px wide or more */
+@media (min-width: 1200px) and (max-width: 2000px) {
+    .test {
+        font-size: 13em;
+    }
+}
+
+/* For screens that are between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .test {
+        font-size: 10.5em;
+    }
+}
+
+/* For screens that are between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .test {
+        font-size: 8.5em;
+    }
+}
+
+/* For screens that are between 576px and 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .test {
+        font-size: 6.2em;
+    }
+}
+
+/* For screens that are less than 576px */
+@media (max-width: 575px) {
+    .test {
+        font-size: 4.5em;
+    }
+}

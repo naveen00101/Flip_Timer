@@ -1,0 +1,23 @@
+.countdown-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 40px 0px;
+}
+
+.divider{
+    font-size: 50px;
+}
+
+
+.icon{
+    font-size: 14px;
+}
+
+.stop{
+    color: red;
+}
+
+.media-btn{
+    margin: 0px 10px 0px 10px;
+}

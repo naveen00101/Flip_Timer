@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+
+
+ input[type="number"] {
+            -moz-appearance: number; /* Remove default appearance in Firefox */
+            width: 80px;
+            padding: 5px;
+            font-size: 40px;
+        }
+
+        /* Remove the spinners in Chrome, Safari, Edge, Opera */
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+
+
+.timer-container{
+    font-family: kode mono;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px
+}
+
+.title  {
+
+    font-family: six caps;
+    font-size: 400px;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    color: #464646;
+}
+
+label{
+    font-size: 40px;
+}
+
+
+input{
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    /* margin: 0px 10px 0px 10px; */
+    text-align: center;
+    font-size: 60px;
+    outline: none;
+    
+    
+    
+}
+
+.line{
+    width: 100%;
+    margin: 20px 0px;
+}
+
+.time-entry-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.time-entry-input-container{
+    display: flex;
+    margin: 30px 0px 30px 0px;
+
+}
+
+
+.input-labeling{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 2000px) {
+    .title {
+        font-size: 305px;
+    }
+    label{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .time-entry-container{
+        margin-top: 10px;
+    }
+
+}
+
+/* For screens that are between 992px and 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .title {
+        font-size: 300px;
+    }
+    label{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .time-entry-container{
+        margin-top: 10px;
+    }
+
+}
+
+/* For screens that are between 768px and 991px */
+@media (min-width: 768px) and (max-width: 991px) {
+    .title {
+        font-size: 300px;
+    }
+    label{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .time-entry-container{
+        margin-top: 10px;
+    }
+
+}
+
+/* For screens that are between 576px and 767px */
+@media (min-width: 576px) and (max-width: 767px) {
+    .title {
+        font-size: 255px;
+    }
+    label{
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 30px;
+    }
+
+    .time-entry-container{
+        margin-top: 10px;
+    }
+
+    input{
+        font-size: 50px !important;
+    }
+
+}
+
+/* For screens that are less than 576px */
+@media (max-width: 575px) {
+    .title {
+        font-size: 175px;
+    }
+    label{
+        text-align: center;
+        margin-top: 10px;
+        font-size: 35px;
+    }
+
+    .time-entry-container{
+        margin-top: 10px;
+    }
+}
