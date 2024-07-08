@@ -19,7 +19,7 @@ Flip Timer is a simple and interactive countdown timer application built using R
 
 To use the Flip Timer, follow these steps:
 
-1. Open your browser and navigate to `http://localhost:3000`.
+1. Open your browser and navigate to `https://flip-timer-gamma.vercel.app/`.
 2. Set the desired time for the countdown using the input fields for minutes and seconds.
 3. Click the `Set` button to start the countdown.
 4. Use the `pause` button to pause the timer and the `resume` button to resume it.
