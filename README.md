@@ -11,7 +11,9 @@ Flip Timer is a simple and interactive countdown timer application built using R
 
 ## Demo
 
-![Flip Timer Demo](./demo.gif)
+![Flip Timer Demo](./src/assets/d2.png)
+
+![Flip Timer Demo](./src/assets/d1.png)
 
 ## Usage
 
@@ -36,19 +38,19 @@ The project uses the following dependencies:
 ## Folder Structure
 
 flip-timer/
-├── public/
-│ ├── index.html
-│ └── ...
-├── src/
-│ ├── components/
-│ │ ├── countdown/
-│ │ │ ├── index.js
-│ │ │ ├── index.css
-│ │ ├── flip/
-│ │ │ ├── index.js
-│ │ │ ├── index.css
-│ ├── App.js
-│ ├── index.js
-│ ├── index.css
-├── package.json
-└── README.md
+- ├── public/
+- │ ├── index.html
+- │ └── ...
+- ├── src/
+- │ ├── components/
+- │ │ ├── countdown/
+- │ │ │ ├── index.js
+- │ │ │ ├── index.css
+- │ │ ├── flip/
+- │ │ │ ├── index.js
+- │ │ │ ├── index.css
+- │ ├── App.js
+- │ ├── index.js
+- │ ├── index.css
+- ├── package.json
+- └── README.md
